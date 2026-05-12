@@ -1,0 +1,36 @@
+:root {
+  --bg-color: #2d5b66;
+  --bot-white: #f0f4f8;
+  --bot-blue: #7bb5e3;
+  --bot-dark-blue: #4a8ac2;
+  --bot-screen: #1a1e24;
+  --bot-glow: #8ee4ff;
+  --bot-red: #ff5e5e;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: white;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+#root {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
